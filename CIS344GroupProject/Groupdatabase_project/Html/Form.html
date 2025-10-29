@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .Center{
+            text-align: center;
+            font: bold;
+            font-size: 30px;
+        
+        }
+
+        .Right{
+            text-align: right;
+        }
+        .Forums{
+            text-align: center;
+            font-size: 25px;
+             color: blue;
+        }
+        .inputs{
+            padding-bottom: 15px;
+            
+        }
+        .back_colour{
+            background-color:gray;
+        }
+    </style>
+    <header>
+        
+        <title>
+            My Store 
+        </title>
+        
+    </header>
+
+    <body class="back_colour">
+        <div>
+        <h1 class = "Center">Welcome to my store</h1>
+        </div>
+        <div class = "Forums">
+        <form method="post" action="product_processor.php">
+            <div class = "inputs">
+            <label for="product name"> Product </label>
+            <input type="text" name = "product_name" >
+            </div>
+            <br>
+            <div class = "inputs">
+            <label for="product quantity"> Quantity</label>
+            <input type="text" name = "product_quantity">
+            </div>
+
+            <br>
+            <br>
+
+        <input type="submit" name= "submit">
+        
+        </form>
+        </div>
+    </body>
+</html>
